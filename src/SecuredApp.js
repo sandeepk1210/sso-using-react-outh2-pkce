@@ -7,7 +7,7 @@ import {
 } from "react-oauth2-pkce";
 
 const authService = new AuthService({
-  clientId: "a53552c3-3452-429d-87a7-8ad45cbf918d",
+  clientId: "ADD YOUR CLIENDID KEY",
   provider: "https://login.microsoftonline.com/common/oauth2/v2.0/",
   redirectUri: "http://localhost:3000",
   scopes: ["openid"],
